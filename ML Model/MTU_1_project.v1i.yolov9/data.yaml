@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['plastic_bag']
+
+roboflow:
+  workspace: mtu1-iu57z
+  project: mtu_1_project
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/mtu1-iu57z/mtu_1_project/dataset/1

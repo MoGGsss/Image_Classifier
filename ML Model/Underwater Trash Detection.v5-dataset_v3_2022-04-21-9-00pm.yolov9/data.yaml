@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['bottle', 'can', 'plastic-bag', 'waste']
+
+roboflow:
+  workspace: 071bct525prasanga-pcampus-edu-np
+  project: underwater-trash-detection-4i8eg
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/071bct525prasanga-pcampus-edu-np/underwater-trash-detection-4i8eg/dataset/5
